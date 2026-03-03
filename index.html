@@ -54,27 +54,7 @@
         </button>
       </div>
 
-      <!-- Mobile Side Menu -->
-      <div class="mobile-nav-overlay" id="mobileNavOverlay">
-        <div class="mobile-nav-panel">
-            <div class="mobile-nav-header">
-                <a href="#" class="logo">
-                    <img src="./assets/logo.png" alt="Mangalam Logo" />
-                </a>
-                <button class="mobile-menu-close" aria-label="Close menu">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="18" y1="6" x2="6" y2="18"></line>
-                        <line x1="6" y1="6" x2="18" y2="18"></line>
-                    </svg>
-                </button>
-            </div>
-            <div class="mobile-nav-links">
-                <a href="#" class="mobile-nav-link">About Us</a>
-                <a href="#" class="mobile-nav-link">Products</a>
-                <a href="#" class="btn btn-primary mobile-cta">Contact Us</a>
-            </div>
-        </div>
-      </div>
+      <!-- Mobile Side Menu will be placed at the bottom of the body -->
     </header>
 
     <main>
@@ -307,33 +287,21 @@
           <h2 class="trusted-title">
             Trusted by Hundreds of Companies Globally
           </h2>
-          <div class="trusted-logos">
-            <img
-              src="./assets/companyLogos.png"
-              alt="Company Logo"
-              class="trusted-logo"
-            />
-            <img
-              src="./assets/companyLogos.png"
-              alt="Company Logo"
-              class="trusted-logo"
-            />
-            <img
-              src="./assets/companyLogos.png"
-              alt="Company Logo"
-              class="trusted-logo"
-            />
-            <img
-              src="./assets/companyLogos.png"
-              alt="Company Logo"
-              class="trusted-logo"
-            />
-            <img
-              src="./assets/companyLogos.png"
-              alt="Company Logo"
-              class="trusted-logo"
-            />
-          </div>
+          <div class="trusted-marquee">
+            <div class="marquee-track">
+              <!-- First set of logos -->
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <!-- Duplicate set for seamless loop -->
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+              <img src="./assets/companyLogos.png" alt="Company Logo" class="trusted-logo" />
+            </div>
           </div>
         </div>
       </section>
@@ -346,7 +314,7 @@
             <p class="specs-subtitle">Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</p>
           </div>
 
-          <div class="specs-table-container">
+          <div class="specs-table-wrapper">
             <table class="specs-table">
               <thead>
                 <tr>
@@ -369,15 +337,15 @@
                 </tr>
                 <tr>
                   <td>Operating Temperature</td>
-                  <td>-40C to +80C (-40F to +176F)</td>
+                  <td>-40°C to +80°C (-40°F to +176°F)</td>
                 </tr>
                 <tr>
                   <td>Service Life</td>
-                  <td>50+ Years (at 20 degrees C, PN 10)</td>
+                  <td>50+ Years (at 20°C, PN 10)</td>
                 </tr>
                 <tr>
                   <td>Material Density</td>
-                  <td>0.95 - 0.96 g/cm3</td>
+                  <td>0.95 - 0.96 g/cm³</td>
                 </tr>
                 <tr>
                   <td>Certification Standards</td>
@@ -389,7 +357,7 @@
                 </tr>
                 <tr>
                   <td>Coil Lengths</td>
-                  <td>Up to 500mm (for smaller diameters)</td>
+                  <td>Up to 500m (for smaller diameters)</td>
                 </tr>
                 <tr>
                   <td>Country of Origin</td>
@@ -1111,6 +1079,28 @@
             <button type="submit" class="btn btn-submit">Submit Form</button>
           </div>
         </form>
+      </div>
+    </div>
+
+    <!-- Mobile Side Menu -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay">
+      <div class="mobile-nav-panel">
+        <div class="mobile-nav-header">
+          <a href="#" class="logo">
+            <img src="./assets/logo.png" alt="Mangalam Logo" />
+          </a>
+          <button class="mobile-menu-close" aria-label="Close menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="mobile-nav-links">
+          <a href="#" class="mobile-nav-link">About Us</a>
+          <a href="#" class="mobile-nav-link">Products</a>
+          <a href="#" class="btn btn-primary mobile-cta">Contact Us</a>
+        </div>
       </div>
     </div>
 
