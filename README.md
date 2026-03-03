@@ -5,7 +5,7 @@ A high-performance, modern, and fully responsive product landing page built for 
 ## 🚀 Live Demo
 
 You can view the live deployment of this project here:  
-**[gushwork-assessment.vercel.app](https://gushwork-assessment.vercel.app/)**  
+**[gushwork-assessment-two.vercel.app](https://gushwork-assessment-two.vercel.app/)**  
 _(Deployment via Vercel)_
 
 ## ✨ Key Features
