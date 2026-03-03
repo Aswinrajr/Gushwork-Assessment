@@ -65,4 +65,4 @@ _(Deployment via Vercel)_
 ---
 
 **Developed by Aswinraj R**  
-_Technical Assessment Project_
+_Technical Assessment Project Gushwork_
